@@ -1,0 +1,86 @@
+nav {
+	background-color: black;
+	padding-left: 30px; 
+	padding-right: 30px; 
+}
+nav a {
+	color: white; 
+	text-decoration: none; 
+}
+nav ul {
+	float: right; 
+	margin-top: 50px; 
+}
+nav ul li {
+	display: inline;
+	margin-right: 15px; 
+}
+
+header {
+	background-color: black;
+	background-image: url(../images/header-bg.jpg);
+	background-size: cover; 
+	background-position: center;
+	height: 500px;
+	color: white;
+	text-align: center;
+	padding-top: 140px
+}
+
+header a, article a, .clients a, footer a{
+	color: white;
+	text-decoration: none; 
+	background-color: #1bbc9b; 
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+.features {
+	text-align: center;
+}
+
+.features article {
+	width: 25%;
+	float: left;
+	padding: 10px;
+}
+.mockup {
+	clear: both;
+	background-color: black;
+	background-image: url(../images/mockup-bg.jpg);
+	background-size: cover; 
+	background-position: center;
+	height: 550px;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	background-attachment: fixed;
+}
+.clients, footer {
+	text-align: center;
+	background-color: #1bbc9b;
+	color: white;
+	padding: 30px 0;
+
+}
+.clients ul, footer ul {
+	padding-left: 0; 
+}
+.clients ul li, footer ul li {
+	display: inline;
+}
+.clients a {
+	background: white;
+	color: #1bbc9b;
+}
+footer {
+	background: black;
+	background-size: cover; 
+
+
+}
